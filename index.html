@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 Nonogram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nonogram<span class="subtitle">Puzzle Game</span></h1>
+        <div class="game-info">
+            
+            <div class="game-stats">
+                <div class="hearts" id="hearts">
+                    <span class="heart">❤️</span>
+                    <span class="heart">❤️</span>
+                    <span class="heart">❤️</span>
+                </div>
+                <div class="timer" id="timer">00:00</div>
+            </div>
+            <div class="toggle-container">
+                <label class="toggle">
+                    <input type="checkbox" id="autoFillToggle" checked>
+                    <span class="toggle-slider"></span>
+                    <span class="toggle-label">🤖 Otomatik Doldurma</span>
+                </label>
+                <label class="toggle mobile-only">
+                    <input type="checkbox" id="markModeToggle">
+                    <span class="toggle-label">🟦</span>
+                    <span class="toggle-slider"></span>
+                    <span class="toggle-label">✖️</span>
+                </label>
+            </div>
+            <div class="message" id="message"></div>
+        </div>
+        <select class="difficulty-select" id="difficulty">
+            <option value="5">Kolay (5x5)</option>
+            <option value="10" class="desktop-only">Orta (10x10)</option>
+            <option value="15" class="desktop-only">Zor (15x15)</option>
+        </select>
+        <div class="game-container">
+            <div class="row-hints"></div>
+            <div class="col-hints"></div>
+            <div class="grid"></div>
+        </div>
+        <div class="controls">
+            <button id="newGame">🎮 Yeni Oyun</button>
+            <button id="clearGrid">🗑️ Temizle</button>
+            
+        </div>
+        
+        <div class="game-info">
+            <h3>🎯 Nasıl Oynanır:</h3>
+            <div class="game-rules">
+                <p>Sol tık ile kareyi doldurun</p>
+                <p>Sağ tık ile çarpı (×) işareti koyun</p>
+                <p>Sayılar, o satır veya sütundaki ardışık dolu kareleri gösterir</p>
+                <p>3 yanlış yapma hakkınız var, dikkatli olun!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
