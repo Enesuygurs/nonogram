@@ -13,8 +13,8 @@ class Nonogram {
         this.lives = 3;
         this.mistakes = 0;
         this.autoFillEnabled = true;
-        this.markMode = false; // Add this line
-        this.gameStarted = false; // Add this line to track if game has started
+        this.markMode = false; 
+        this.gameStarted = false;
         this.initializeGame();
     }
 
@@ -126,13 +126,7 @@ class Nonogram {
 
     addEventListeners() {
         const grid = document.querySelector('.grid');
-        const markModeToggle = document.getElementById('markModeToggle');
         
-        // Mark mode toggle event listener
-        markModeToggle.addEventListener('change', (e) => {
-            this.markMode = e.target.checked;
-        });
-
         // Touch events for mobile
         grid.addEventListener('touchstart', (e) => {
             e.preventDefault();
@@ -310,10 +304,15 @@ class Nonogram {
             this.size = parseInt(e.target.value);
             this.newGame();
         });
+        
+        // Mark mode toggle event listener
+        document.getElementById('markModeToggle').addEventListener('change', (e) => {
+            this.markMode = e.target.checked;
+        });
 
         // Add auto-fill toggle listener
         document.getElementById('autoFillToggle').addEventListener('change', (e) => {
-            this.autoFillEnabled = e.checked;
+            this.autoFillEnabled = e.target.checked;
         });
     }
 
