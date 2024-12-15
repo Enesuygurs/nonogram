@@ -15,6 +15,12 @@ A modern, mobile-friendly implementation of the classic Nonogram (also known as 
 - Clean and modern UI design
 - Responsive layout for all screen sizes
 
+![chrome_t0vUyavIPd](https://github.com/user-attachments/assets/bd9f7faa-658c-48c4-a495-2435c0a339dd)
+![_C__Users_Jiko_CascadeProjects_nonogram-game_index html](https://github.com/user-attachments/assets/c7a8ecac-7d09-4b85-b9ef-77335cd9124e)
+![_C__Users_Jiko_CascadeProjects_nonogram-game_index html (1)](https://github.com/user-attachments/assets/65fb2416-e514-4037-8e5c-22487e9375c3)
+![_C__Users_Jiko_CascadeProjects_nonogram-game_index html(iPhone 14 Pro Max)](https://github.com/user-attachments/assets/670ba838-87ad-4cc5-a7f2-fcc6990869ea)
+
+
 ## 🎯 How to Play
 
 1. **Understanding the Grid**
