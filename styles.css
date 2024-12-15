@@ -109,7 +109,6 @@ h1 {
 .grid.size-15 .cell:nth-child(n+61):nth-child(-n+75),
 .grid.size-15 .cell:nth-child(n+136):nth-child(-n+150) {
     border-bottom: 2px solid #cccccc;
-
 }
 
 .cell {
@@ -377,7 +376,7 @@ h1 {
 }
 
 /* Show mobile-only elements on mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .mobile-only {
         display: flex !important;
     }
