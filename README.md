@@ -2,6 +2,8 @@
 
 A modern, mobile-friendly implementation of the classic Nonogram (also known as Picross or Paint by Numbers) puzzle game built with HTML, CSS, and JavaScript.
 
+Link: https://enesuygurs.github.io/nonogram/
+
 ## 🎮 Game Features
 
 - Three difficulty levels:
